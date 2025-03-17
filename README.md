@@ -3,15 +3,11 @@
 Visit the demo link: [Book Recommendation](https://sumayahshodari.github.io/BookRec/index1.html)
 
 ## Features
-- **Personalized Recommendations**: Get book suggestions based on your reading preferences.
-- **Search & Browse**: Explore books by genre, author, or popularity.
-- **User Reviews & Ratings**: Read and leave reviews for books.
-- **Wishlist & Favorites**: Save books to read later.
+- **Top books Recommendations**: Get book based on popularity.
+- **Search & Browse**: Check diffrent readers and pick from their recommendations.
+- **User Reviews & Ratings**: check ratings left by the readers to find the best book.
+- **Diffrent Recommenders**: choose the reader who matches your intersts.
 - **Community Engagement**: Join discussions and connect with fellow readers.
 
 ## Technologies Used
-- **Frontend**: HTML, CSS, JavaScript (React/Next.js recommended)
-- **Backend**: Node.js, Express.js, Python (Flask/Django)
-- **Database**: PostgreSQL/MySQL/MongoDB
-- **Authentication**: OAuth, JWT-based authentication
-- **Hosting**: Vercel, Netlify, or AWS
+- **Frontend**: HTML, CSS, JavaScript.
