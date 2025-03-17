@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Jadil's page</title>
+    <link rel="stylesheet" href="StyleSheet1ProjectWeb.css">
+</head>
+<body>
+<div class="background">
+        <div class="navigation">
+            <nav class="navbar">
+                <div class="logo">SJJL</div>
+                <ul class="menu">
+                    <li><a href="./index1.html">Home</a></li>
+                    <li><a href="#">Books</a></li>
+                    <li class="dropdown">
+                        <a href="#">Recommendators</a>
+                        <ul class="dropdown-content">
+                            <li><a href="./index.html">Sumayah Shoadari</a></li>
+                            <li><a href="#">Layan</a></li>
+                            <li><a href="#">Jadil</a></li>
+                            <li><a href="#">Jana</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <section class="home">
+            <div class="home-content">
+               <h1 style="font-size:180%;"> Jadil's books Recommendations : </h1><br>
+             
+
+            </div>
+        </section>
+
+  <style>
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+        }
+        .image {
+            max-width: 200px; 
+            margin-right: 20px; 
+        }
+    </style>
+</head>
+
+<body>
+ <div class="container">
+        <img class="image" src="BWWCT.jpg" alt="BWWCT.jpg">
+        <div>
+            <h2>Bury What We Can't Take</h2>
+            <p>&nbsp &nbsp The day nine-year-old San San and her twelve-year-old brother, Ah Liam, discover their grandmother taking a hammer to a framed portrait of Chairman Mao is the day that forever changes their lives. To prove his loyalty to the Party, Ah Liam reports his grandmother to the authorities. But his belief in doing the right thing sets in motion a terrible chain of events.</p>
+        </div>
+    </div>
+
+ <div class="container">
+        <img class="image" src="Harafish.jpg" alt="Harafish.jpg">
+        <div>
+            <h2>Harafish</h2>
+            <p>&nbsp &nbsp Al Harafish) is a 1977 novel written by Naguib Mahfouz. It comprises a series of episodes in a dozen generations of a family from the Egyptian urban rabble (the "harafish"). Many of the members of this family become clan chiefs in an alley in the city; some of them are benefactors to the other members of the harafish; some are more corrupt. Neither the location within Egypt nor the time of the events is ever identified.</p>
+        </div>
+    </div>
+
+ <div class="container">
+        <img class="image" src="content.jpg" alt="content.jpg">
+        <div>
+            <h2>Morning and evening talk</h2>
+            <p>&nbsp &nbsp Naguib Mahfouz wrote the novel differently from the official novels, as the novel is not divided into chapters, but is divided alphabetically by the names of the three volumes (Al-Marakibi, Al-Masry, and Al-Kleiope), where Naguib Mahfouz depicted a period in the life of the Egyptian people in terms of their customs, traditions, and history.</p>
+        </div>
+    </div>
+ 
+
+
+
+</body>
+</html>

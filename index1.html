@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="background">
+        <div class="navigation">
+            <nav class="navbar">
+                <div class="logo">SJJL</div>
+                <ul class="menu">
+                    <li><a href="./index1.html">Home</a></li>
+                    <li><a href="./books.html">Books</a></li>
+                    <li class="dropdown">
+                        <a href="#">Recommendators</a>
+                        <ul class="dropdown-content">
+                            <li><a href="./index.html">Sumayah Shoadari</a></li>
+                            <li><a href="./HTMLPage1ProjectWeb.html">Layan Dhafer</a></li>
+                            <li><a href="./Jadilpage.html">Jadil Salman</a></li>
+                            <li><a href="./jana_project.html">Jana Saad</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./Aboutus.html" id="aboutBtn">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="container">
+            <div class="leftpart">
+                <h1>Discover</h1>
+                <h1> your next great read.</h1>
+                <p>Browse thousands of books, discover recommendations from passionate readers, 
+                    connect with fellow book lovers, and enjoy a seamless shopping experience!</p>
+                <button type="submit" class="btn" onclick="openPopup()">Join Us</button>
+                <div class="popup" id="popup">
+                <br>
+                 <h2>Small Suggestion</h2>
+                 <p> Before discovering our amazing website, check the recommendations first !! there comes the main idea </p>
+                 <button type="button"  onclick="closePopup()"> OK </button>
+            </div>
+            </div>
+            <div class="rightpart">
+                <img src="readin.jpg" width="850" height="650">
+            </div>
+        </div>
+    </div>
+
+    <script> 
+    let popup = document.getElementById("popup");
+
+    function openPopup(){
+        popup.classList.add("open-popup");
+    }
+
+    function closePopup(){
+        popup.classList.remove("open-popup");
+    }
+    </script>
+</body>
+</html>

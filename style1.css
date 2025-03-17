@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    margin: 0 !important;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #393768;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu li {
+    position: relative;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+.menu a:hover {
+    background-color:#535173;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #535173;
+    top: 100%;
+    left: 0;
+    width: 200px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content li {
+    padding: 10px;
+}
+
+.navigation {
+   margin-bottom: 50px;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: space-between;
+}
+
+.background {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.leftpart {
+    flex-direction: column;
+    justify-content: center;
+    width: 50vw;
+    margin-left: 60px;
+}
+.leftpart h1{
+    font-size: 48px;
+}
+.leftpart p{
+    margin: 24px 0; 
+    font-size: 18px;
+}
+.leftpart button{
+    height: 35px;
+    width: 100px;
+    align-self: center;
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: white;
+    background-color: #393768;
+
+}
+.leftpart button:hover{
+    color:#393768;
+    background-color:white;
+}
+
+.dialog {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.dialog-content {
+    text-align: center;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.popup {
+    width: 500px;
+    background : #D3D3D3;
+    align-self: center;
+    border-radius: 6px;
+    position: absolute;
+    top:0;
+    left:50%;
+    transform: translate(-50%,-50%) scale(0.1) ;
+    text-align: center;
+    padding: 0 40px 40px;
+    color:#333 ;
+    visibility: hidden;
+    transition: transform 0.4s , top 0.4s;
+
+}
+
+.open-popup {
+    visibility: visible;
+    top:50%;
+    transform: translate(-50%,-50%) scale(1) ;
+}
+
+
